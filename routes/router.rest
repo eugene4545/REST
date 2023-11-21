@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers
+
+
+###
+GET http://localhost:3000/subscribers/64bff69b3d52255f7c5fce14
+
+
+###
+POST http://localhost:3000/subscribers
+Content-type: application/json
+
+
+{
+    "name" : "Muiz",
+    "subscribedToChannel": "coder"
+}
+
+
+###
+DELETE http://localhost:3000/subscribers/64bffcf1e3f1a5fa64f6b8ea
+
+
+###
+PATCH  http://localhost:3000/subscribers/64c0037ed5cbd0e7b3f10e5d
+Content-type: application/json
+
+{
+    "name" : "PAPILOH",
+    "subscribedToChannel": "GMC"
+}
